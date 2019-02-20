@@ -6,8 +6,7 @@ namespace PadawansTask10
     {
         public static bool IsNull(this object variable)
         {
-            // put your code here
-            throw new NotImplementedException();
+            return ReferenceEquals(null, variable) ? true : false;
         }
     }
 }
